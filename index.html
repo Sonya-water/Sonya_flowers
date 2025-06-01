@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+		<link type="Image/x-icon" href="flover.png" rel="icon">
+		<script src="flower_js.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="kontakt">
+					<a href=""><img src="tel.png"></a>
+					<a href=""><img src="mail.png"></a>
+					<a href=""><img src="tg.png"></a>
+				</div>
+				<h3>Sonya's flowers</h3>
+				<div>
+					<a href="#katalog">Каталог</a>
+					<a href="#contact">Контакты</a>
+					<a href="#pop">Популярное</a>
+					<a href="#delev">Инструкция по уходу</a>
+					<a href="#delev">Доставка и оплата</a>
+				</div>
+			</nav>
+			<h1>Sonya's flowers</h1>
+		</header>
+		<main>
+			<section id="katalog" class="flow">
+				<div>
+					<a class="mono">Монобукеты</a>
+					<a class="mix">Миксбукеты</a>
+					<a class="avtor">Авторские букеты</a>
+				</div>
+				<div>
+					<a class="box">Композиции в корзине</a>
+					<a class="shlapa">Композиции в коробке</a>
+					<a class="baza">Вазы</a>
+				</div>
+			</section>
+			<section id="pop" class="popylar">
+			<h2>Популярное</h2>
+			<div>
+				<article>
+					<img src="1.jpg">
+					<h3>Мечты весны</h3>
+					<p>Авторский букет</p>
+					<p>от 26 000р.</p>
+					<button class="bc">Заказать</button>
+				</article>
+				<article>
+					<img src="2.jpeg">
+					<h3>Лютик нарцисс</h3>
+					<p>Авторский букет</p>
+					<p>от 13 000р.</p>
+					<button class="bc">Заказать</button>
+				</article>
+				<article>
+					<img src="3.jpg">
+					<h3>Ранунклюс микс</h3>
+					<p>с добавлением зелени</p>
+					<p>от 12 200р.</p>
+					<button class="bc">Заказать</button>
+				</article>
+				<article>
+					<img src="4.jpg">
+					<h3>Белоснежный тюльпан</h3>
+					<p>с добавлением зелени</p>
+					<p>от 10 950р.</p>
+					<button class="bc">Заказать</button>
+				</article>
+			</div>
+			</section>
+			<section class="big">
+				<img onclick="show_flower()" onmouseover="no_flower()" class="wind" style="width:50px" src="win.png">
+				
+				<div id="flo">
+					<div class="help">
+						<img src="flowers.png">
+						<article>
+							<h4>Нектарин</h4>
+							<p>Нежное, яркое сочетание букета, состоящего из роз, диантусов и японской айвы.</p>
+							<a href="">Купить</a>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="delev" class="delevery">
+			<h2>Доставка и оплата</h2>
+				<div>
+					<div class="del">	
+						<img src="do_photo.jpeg">
+						<article>
+							<h4>Сделаем фото</h4>
+							<p>Соберем букет из свежих цветов и сделаем фото перед отправкой</p>
+						</article>
+					</div>
+					<div class="del">
+						<img src="cartochka.jpeg">
+						<article>
+							<h4>Приложим карточку</h4>
+							<p>Бесплатно приложим карточку к букету с вашим пожеланием получателю</p>
+						</article>
+					</div>
+				</div>
+				<div>
+					<div class="del">			
+						<img src="yxod.jpeg">
+						<article>
+							<h4>Подскажем как ухаживать</h4>
+							<p>Бесплатно приложим инструкцию по уходу за букетом и подкормку для цветов</p>
+						</article>
+					</div>
+					<div class="del">
+						<img src="dostavca.jpeg">
+						<article>
+							<h4>Доставим в срок</h4>
+							<p>Упакуем букет в воду и доставим букет в коробе ко времени</p>
+						</article>
+					</div>
+				</div>	
+			</section>
+			<h2 class="for">Не нашли нужного букета?</h2>
+			<section class="mail">
+				<div>
+					<p>Пришлите нам своё фото букета или напишите нам свои пожелания и мы сделаем букет специально для вас!</p>
+					<img src="https://cvetovik.com/files/images/samye-populyarnye-cvety-v-mire-2.jpg">
+				</div>
+				<div>
+					<form>
+						<input type="email" placeholder="Введите почту"><br>
+						<input type="tel" placeholder="Введите телефон"><br>
+						<input type="text" placeholder="Введите ваше имя"><br>
+						<label>Загрузите файл</label><br>
+						<input type="file"><br>
+						<button>Отправить</button><br>			
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer id="contact">
+			<div>
+				<p>Sonya's flowers</p>
+				<p>Design by Sonya</p>
+				<p>2022 sonya's flowers</p>
+			</div>
+			<div>
+				<p>Menu</p>
+				<p>Моно букеты</p>
+				<p>Микс букеты</p>
+				<p>Авторские букеты</p>
+				<p>Доставка</p>
+			</div>
+			<div>			
+				<p>Info</p>
+				<p>Телефон:+79807659844</p>
+				<p>Email:Sonya2flowers@gmail.ru</p>
+			</div>
+		</footer>
+	</body>
+</html>
